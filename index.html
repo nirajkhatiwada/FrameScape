@@ -3,54 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FrameScape: Your go-to store for custom framing and scenic photography.">
-    <title>FrameScape | Custom Framing and Scenic Photos</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FrameScape - Custom Framing and Scenic Photography</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <h1>FrameScape</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#custom-framing">Custom Framing</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="home">
-        <h1>Welcome to FrameScape</h1>
-        <p>Your one-stop shop for custom framing and beautiful scenic photography.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Custom Framing</li>
-            <li>Scenic Photography Prints</li>
-            <li>Personalized Framing Solutions</li>
-        </ul>
+    
+    <section id="home" class="section-home">
+        <h2>Welcome to FrameScape</h2>
+        <p>Your destination for high-quality scenic photography and custom framing services.</p>
+        <img src="assets/home-banner.jpg" alt="Beautiful Landscape" class="hero-image">
     </section>
 
     <section id="gallery">
-        <h2>Scenic Photo Gallery</h2>
+        <h2>Photo Gallery</h2>
         <div class="gallery-grid">
-            <img src="image1.jpg" alt="Scenic Photo 1">
-            <img src="image2.jpg" alt="Scenic Photo 2">
-            <img src="image3.jpg" alt="Scenic Photo 3">
-            <!-- Add more images as needed -->
+            <img src="assets/photo1.jpg" alt="Scenic View 1">
+            <img src="assets/photo2.jpg" alt="Scenic View 2">
+            <img src="assets/photo3.jpg" alt="Scenic View 3">
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@framescape.com</p>
-        <p>Phone: +123 456 7890</p>
+    <section id="custom-framing">
+        <h2>Custom Framing</h2>
+        <p>Select your photos, choose the frame, and create your perfect masterpiece with FrameScape.</p>
+        <button onclick="openFramingTool()">Customize Now</button>
     </section>
 
     <footer>
-        <p>&copy; 2024 FrameScape. All Rights Reserved.</p>
+        <p>&copy; 2024 FrameScape. All rights reserved.</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
